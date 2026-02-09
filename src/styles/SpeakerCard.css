@@ -1,0 +1,98 @@
+.speaker-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-left: 4px solid #28a745;
+}
+
+.speaker-card.unavailable {
+  border-left-color: #dc3545;
+  background: #fff5f5;
+}
+
+.speaker-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.speaker-info h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.speaker-info p {
+  margin: 8px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.availability-status {
+  margin: 15px 0;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.status-badge.available {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-badge.unavailable {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.program-details {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.program-details p {
+  margin: 5px 0;
+}
+
+.locked-by {
+  color: #999 !important;
+  font-style: italic;
+  font-size: 12px !important;
+}
+
+.speaker-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.speaker-actions .btn {
+  flex: 1;
+}
+
+.btn-warning {
+  background: #ffc107;
+  color: #333;
+}
+
+.btn-warning:hover {
+  background: #e0a800;
+}
+
+.btn-success {
+  background: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #218838;
+}
