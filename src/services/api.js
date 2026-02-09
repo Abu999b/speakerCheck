@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://speakercheckbnd.onrender.com' || 'http://localhost:5000/api';
+const API_URL = 'https://speakercheckbnd.onrender.com/api' || 'http://localhost:5000/api';
 
 // Create axios instance
 const api = axios.create({
